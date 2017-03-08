@@ -6,7 +6,7 @@ package Activity01;
  * <code>Card</code> represents a playing card.
  */
 public class Card {
-
+        
 	/**
 	 * String value that holds the suit of the card
 	 */
@@ -34,16 +34,21 @@ public class Card {
 	 *                  containing the point value of the card
 	 */
 	public Card(String cardRank, String cardSuit, int cardPointValue) {
-		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
-	}
-
+		//initializes a new Card with the given rank, suit, and point value
+		rank = cardRank;
+		suit = cardSuit;
+		pointValue = cardPointValue;
+        }
 
 	/**
 	 * Accesses this <code>Card's</code> suit.
 	 * @return this <code>Card's</code> suit.
-	 */
+	 
+         * 
+         */
 	public String suit() {
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
+                return null;
    }
 
 	/**
@@ -52,6 +57,7 @@ public class Card {
 	 */
 	public String rank() {
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
+                return null;
 	}
 
    /**
