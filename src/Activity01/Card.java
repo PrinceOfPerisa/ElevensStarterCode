@@ -48,7 +48,7 @@ public class Card {
          */
 	public String suit() {
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
-                return null;
+                return suit;
    }
 
 	/**
@@ -57,7 +57,7 @@ public class Card {
 	 */
 	public String rank() {
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
-                return null;
+                return rank;
 	}
 
    /**
@@ -66,6 +66,7 @@ public class Card {
 	 */
 	public int pointValue() {
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
+                return pointValue;
 	}
 
 	/** Compare this card with the argument.
